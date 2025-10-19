@@ -43,11 +43,14 @@ INSTALLED_APPS = [
 
     "accounts",
     "pages",
+    "articles",
+    
 ]
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5" # new
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 AUTH_USER_MODEL = "accounts.CustomUser"
 
+TIME_ZONE = "Asia/Kolkata"
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
